@@ -1,4 +1,4 @@
-# keyword / 关键词
+# FileMapping keyword / 关键词
 
 这个是 [fileMapping](https://github.com/bop-lp/fileMapping) 的插件关键词/保留变量
 
