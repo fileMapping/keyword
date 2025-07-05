@@ -6,7 +6,7 @@
 
 在插件的 __init__.py/<插件本身.py> 规定即可!
 
-## [fileMapping](document/fileMapping.md)
+## [点击跳转](document/fileMapping.md)
 内置的保留变量
 
 ### fileMapping的
