@@ -1,8 +1,9 @@
-# keyword
+# keyword / 关键词
 
-这个是 fileMapping 的插件关键词/保留变量
+这个是 [fileMapping](https://github.com/bop-lp/fileMapping) 的插件关键词/保留变量
 
 如何使用?
+
 在插件的 __init__.py/<插件本身.py> 规定即可!
 
 ## [fileMapping](document/fileMapping.md)
