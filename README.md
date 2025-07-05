@@ -6,15 +6,27 @@
 
 在插件的 __init__.py/<插件本身.py> 规定即可!
 
-## [点击跳转](document/fileMapping.md)
-内置的保留变量
+## fileMapping
 
-### fileMapping的
+### fileMapping 本身的保留变量
 
+fileMapping 内置的保留变量
+
+
+[点击跳转](document/fileMapping.md)
+
+### fileMapping 的内置插件
+
+fileMapping 内置插件的保留变量
+
+可以禁止使用内置的保留变量
+
+
+[点击跳转](document/BuiltPlugins.md)
 
 ## 第三方插件保留变量
 
 这个由插件作者写入
 
-[点击跳转](document/thirdParty.md)
+### [点击跳转](document/thirdParty.md)
 
