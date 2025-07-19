@@ -1,4 +1,23 @@
+
 # FileMapping 的保留变量
+
+<!-- TOC -->
+* [FileMapping 的保留变量](#filemapping-的保留变量)
+  * [保留参数列表](#保留参数列表)
+    * [`__fileName__`](#__filename__)
+    * [`__init__`](#__init__)
+    * [`__run__`](#__run__)
+    * [`__end__`](#__end__)
+    * [`__version__`](#__version__)
+    * [`__dependenciesOnPlugins__`](#__dependenciesonplugins__)
+    * [`__error__`](#__error__)
+    * [`__underlying__`](#__underlying__)
+    * [`__level__`](#__level__)
+  * [内置插件的保留参数](#内置插件的保留参数)
+    * [Folders](#folders)
+      * [`__dataFolders__`](#__datafolders__)
+      * [`__temporaryFolders__`](#__temporaryfolders__)
+<!-- TOC -->
 
 
 ## 保留参数列表
@@ -112,3 +131,35 @@
     - 控制导入的等级
     - 0：默认等级，不影响导入顺序
     - n：由包自己控制，然后获取该整数，做出排序，然后进行导入
+
+
+
+## 内置插件的保留参数
+
+### Folders
+[点击访问仓库](https://github.com/filemapping/Folders)
+
+#### `__dataFolders__`
+- 参数名称: 数据文件夹
+- 是否必须: 否
+- 类型: str | list
+- 默认值: None
+- 描述: 
+    - 用于申请一个数据文件夹
+    - fileMapping 会在init时生成一个数据文件夹
+    - 会返回申请的临时文件夹路径
+    - 无法动态申请
+
+
+#### `__temporaryFolders__`
+
+- 参数名称: 临时文件夹
+- 是否必须: 否
+- 加入版本: 0.3.15
+- 类型: str | list
+- 默认值: None
+- 描述: 
+    - 用于申请一个临时文件夹
+    - fileMapping 会在init时申请一个临时文件夹, 并在插件结束时删除
+    - fileMapping.temporaryFolders() 会返回申请的临时文件夹路径
+
